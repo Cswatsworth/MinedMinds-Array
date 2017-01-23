@@ -8,6 +8,12 @@ def create_100_item_array
 		if value % 3 == 0
 		t100_item_array[index] = 'mined'
 
+		elsif
+			 value % 5 == 0
+			t100_item_array[index] = 'minds'
+
+		else
+			value
 		end
 
 	end
